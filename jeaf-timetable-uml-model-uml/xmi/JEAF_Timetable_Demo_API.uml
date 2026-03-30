@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:JMM="http://JMM/_11_5_1ab00d4_1164055757453_405595_1" xmlns:MagicDrawProfile="http://UML_Standard_Profile/MagicDraw_Profile/_be00301_1073394351331_445580_2" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/2.0.0/UML" xsi:schemaLocation="http://JMM/_11_5_1ab00d4_1164055757453_405595_1 JMM.profile.uml#_djHLxSwIEfGSoMlN9RKwyw http://UML_Standard_Profile/MagicDraw_Profile/_be00301_1073394351331_445580_2 UML_Standard_Profile.MagicDraw_Profile.profile.uml#_djIXPCwIEfGSoMlN9RKwyw">
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:JMM="http://JMM/_11_5_1ab00d4_1164055757453_405595_1" xmlns:MagicDrawProfile="http://UML_Standard_Profile/MagicDraw_Profile/_be00301_1073394351331_445580_2" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/2.0.0/UML" xsi:schemaLocation="http://JMM/_11_5_1ab00d4_1164055757453_405595_1 JMM.profile.uml#_ZlEALCwMEfGSoMlN9RKwyw http://UML_Standard_Profile/MagicDraw_Profile/_be00301_1073394351331_445580_2 UML_Standard_Profile.MagicDraw_Profile.profile.uml#_ZlStAiwMEfGSoMlN9RKwyw">
   <uml:Model xmi:id="c26db9ff-c3d3-41ca-857e-c290e8beed0f" name="Model" clientDependency="93a27562-4954-4d8c-9cb8-2e8bb93af6a1 b57c511e-b5c1-4f57-a3e6-7e2940544c99" viewpoint="">
     <ownedComment xmi:id="e03857a5-e80b-4652-bc9a-37b058a01865" body="Author:ue58027.&#xA;Created:15.03.2023 10:17.&#xA;Title:.&#xA;Comment:.&#xA;" annotatedElement="c26db9ff-c3d3-41ca-857e-c290e8beed0f"/>
     <packageImport xmi:id="_0primitiveTypesModel">
@@ -271,7 +271,7 @@
               <packagedElement xmi:type="uml:Dependency" xmi:id="0afc4d44-d7c2-436f-9eac-dad9e781d67c" name="" supplier="d2b429e9-9807-42b8-bd10-5770c8be5d36" client="9eb96466-d706-4cc5-95f9-effcba9d75f5"/>
               <packagedElement xmi:type="uml:Dependency" xmi:id="64a02cfc-e105-4d8d-8342-4e33192f7751" name="" supplier="2688edbc-f1ac-47e8-8ade-7a2f414ada22" client="9eb96466-d706-4cc5-95f9-effcba9d75f5"/>
               <packagedElement xmi:type="uml:Package" xmi:id="9f71c28e-78ec-451f-8123-51feb1450a25" name=" Service Model Releases">
-                <packagedElement xmi:type="uml:Package" xmi:id="78b26ff6-25f8-490d-b6f1-f5d24fb27ec1" name="0.1.1">
+                <packagedElement xmi:type="uml:Package" xmi:id="78b26ff6-25f8-490d-b6f1-f5d24fb27ec1" name="0.1.2">
                   <ownedComment xmi:id="23ad9ae3-163b-4f40-855b-e831449c8f93" body="Improve interoperability of generated code with other classes also using Jackson"/>
                   <ownedComment xmi:id="80213ac3-8f48-4713-8076-b8642651e223" body="Jackson 3 support"/>
                   <ownedComment xmi:id="4bb48441-fa98-4560-b8fe-9d7a65a2a2b2" body="Missing `@Valid` annotation on fields of generic type"/>
@@ -310,7 +310,6 @@
               <packagedElement xmi:type="uml:Dependency" xmi:id="2879c567-27f0-4ff4-886f-7bf03ad07ce0" name="" supplier="cab6c5fd-bf2a-47ea-bd4a-0552316d43c5" client="c3567d47-0c26-4587-9562-c5e309300727"/>
               <packagedElement xmi:type="uml:Dependency" xmi:id="a94c9aaa-666e-4cdd-9349-c4be0c8dc8ac" name="" supplier="9f71c28e-78ec-451f-8123-51feb1450a25" client="c3567d47-0c26-4587-9562-c5e309300727"/>
             </packagedElement>
-            <packagedElement xmi:type="uml:Package" xmi:id="220bcb87-b62c-42fd-8582-f45b9809b085" name="uml"/>
             <packagedElement xmi:type="uml:Dependency" xmi:id="b6f05de4-d541-4dfc-8fe1-cb00648ee1ae" name="" supplier="d2b429e9-9807-42b8-bd10-5770c8be5d36" client="b8986491-a37d-4724-91d8-9a5504ef14dc"/>
             <packagedElement xmi:type="uml:Artifact" xmi:id="b8986491-a37d-4724-91d8-9a5504ef14dc" name="JEAF Timetable Domain" clientDependency="b6f05de4-d541-4dfc-8fe1-cb00648ee1ae" fileName=""/>
           </packagedElement>
@@ -333,177 +332,177 @@
       <supplier xmi:type="uml:Package" href="Java_Extensions.uml#5dcd23a0-44e4-4016-b41f-de12d7fcf4d6"/>
     </packagedElement>
     <profileApplication xmi:id="489eaa41-4c06-4a1c-ba02-3cdfdd96adfcprofileApplicationModel">
-      <eAnnotations xmi:id="_djI93iwIEfGSoMlN9RKwyw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.Dependency_Matrix_Profile.profile.uml#_di7f8CwIEfGSoMlN9RKwyw"/>
+      <eAnnotations xmi:id="_ZlTVDSwMEfGSoMlN9RKwyw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.Dependency_Matrix_Profile.profile.uml#_ZlTS-ywMEfGSoMlN9RKwyw"/>
       </eAnnotations>
       <appliedProfile href="UML_Standard_Profile.Dependency_Matrix_Profile.profile.uml#489eaa41-4c06-4a1c-ba02-3cdfdd96adfc"/>
     </profileApplication>
     <profileApplication xmi:id="7279c57e-1301-4387-9c5e-fdaae72b924fprofileApplicationModel">
-      <eAnnotations xmi:id="_djI94CwIEfGSoMlN9RKwyw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.MagicDraw_Profile.profile.uml#_djIXPCwIEfGSoMlN9RKwyw"/>
+      <eAnnotations xmi:id="_ZlTVDywMEfGSoMlN9RKwyw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.MagicDraw_Profile.profile.uml#_ZlStAiwMEfGSoMlN9RKwyw"/>
       </eAnnotations>
       <appliedProfile href="UML_Standard_Profile.MagicDraw_Profile.profile.uml#7279c57e-1301-4387-9c5e-fdaae72b924f"/>
     </profileApplication>
     <profileApplication xmi:id="7ebba35e-2cce-45bd-91d3-c8de398adfc8profileApplicationModel">
-      <eAnnotations xmi:id="_djI94iwIEfGSoMlN9RKwyw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="UML_Profile_for_Java.deployment.profile.uml#_djHLgCwIEfGSoMlN9RKwyw"/>
+      <eAnnotations xmi:id="_ZlTVESwMEfGSoMlN9RKwyw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Profile_for_Java.deployment.profile.uml#_ZlSsvSwMEfGSoMlN9RKwyw"/>
       </eAnnotations>
       <appliedProfile href="UML_Profile_for_Java.deployment.profile.uml#7ebba35e-2cce-45bd-91d3-c8de398adfc8"/>
     </profileApplication>
     <profileApplication xmi:id="2c6d5f52-15a0-4a9d-a003-3a396d99e883profileApplicationModel">
-      <eAnnotations xmi:id="_djI95CwIEfGSoMlN9RKwyw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="JMM.profile.uml#_djHLxSwIEfGSoMlN9RKwyw"/>
+      <eAnnotations xmi:id="_ZlT28SwMEfGSoMlN9RKwyw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="JMM.profile.uml#_ZlEALCwMEfGSoMlN9RKwyw"/>
       </eAnnotations>
       <appliedProfile href="JMM.profile.uml#2c6d5f52-15a0-4a9d-a003-3a396d99e883"/>
     </profileApplication>
     <profileApplication xmi:id="21867390-8a26-4826-85d2-73a6bbd248c0profileApplicationModel">
-      <eAnnotations xmi:id="_djJiUSwIEfGSoMlN9RKwyw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.Validation_Profile.profile.uml#_di7h2SwIEfGSoMlN9RKwyw"/>
+      <eAnnotations xmi:id="_ZlT28ywMEfGSoMlN9RKwyw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.Validation_Profile.profile.uml#_ZlSquywMEfGSoMlN9RKwyw"/>
       </eAnnotations>
       <appliedProfile href="UML_Standard_Profile.Validation_Profile.profile.uml#21867390-8a26-4826-85d2-73a6bbd248c0"/>
     </profileApplication>
     <profileApplication xmi:id="20c28b15-130e-400e-bc87-47bedfa68499profileApplicationModel">
-      <eAnnotations xmi:id="_djJiUywIEfGSoMlN9RKwyw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.MagicDraw_Profile.Traceability_customization.profile.uml#_djH0SSwIEfGSoMlN9RKwyw"/>
+      <eAnnotations xmi:id="_ZlT29SwMEfGSoMlN9RKwyw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.MagicDraw_Profile.Traceability_customization.profile.uml#_ZlD_diwMEfGSoMlN9RKwyw"/>
       </eAnnotations>
       <appliedProfile href="UML_Standard_Profile.MagicDraw_Profile.Traceability_customization.profile.uml#20c28b15-130e-400e-bc87-47bedfa68499"/>
     </profileApplication>
     <profileApplication xmi:id="7fe009a7-9bc6-4e23-8331-8f0fc935891bprofileApplicationModel">
-      <eAnnotations xmi:id="_djJiVSwIEfGSoMlN9RKwyw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.MagicDraw_Profile.DSL_Customization.profile.uml#_djH2FiwIEfGSoMlN9RKwyw"/>
+      <eAnnotations xmi:id="_ZlT29ywMEfGSoMlN9RKwyw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.MagicDraw_Profile.DSL_Customization.profile.uml#_ZlF1YSwMEfGSoMlN9RKwyw"/>
       </eAnnotations>
       <appliedProfile href="UML_Standard_Profile.MagicDraw_Profile.DSL_Customization.profile.uml#7fe009a7-9bc6-4e23-8331-8f0fc935891b"/>
     </profileApplication>
     <profileApplication xmi:id="6f45c64e-0429-4093-ad7f-1662d00603f2profileApplicationModel">
-      <eAnnotations xmi:id="_djJiVywIEfGSoMlN9RKwyw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.MagicDraw_Profile.Find_By_Text.profile.uml#_di7f4iwIEfGSoMlN9RKwyw"/>
+      <eAnnotations xmi:id="_ZlT2-SwMEfGSoMlN9RKwyw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.MagicDraw_Profile.Find_By_Text.profile.uml#_ZlSsqSwMEfGSoMlN9RKwyw"/>
       </eAnnotations>
       <appliedProfile href="UML_Standard_Profile.MagicDraw_Profile.Find_By_Text.profile.uml#6f45c64e-0429-4093-ad7f-1662d00603f2"/>
     </profileApplication>
     <profileApplication xmi:id="528bcb7f-ec4a-4d18-bfc7-f24423af6b37profileApplicationModel">
-      <eAnnotations xmi:id="_djJiWSwIEfGSoMlN9RKwyw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="UML_Profile_for_Java.profile.uml#_djH0_ywIEfGSoMlN9RKwyw"/>
+      <eAnnotations xmi:id="_ZlUeASwMEfGSoMlN9RKwyw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Profile_for_Java.profile.uml#_ZlSppywMEfGSoMlN9RKwyw"/>
       </eAnnotations>
       <appliedProfile href="UML_Profile_for_Java.profile.uml#528bcb7f-ec4a-4d18-bfc7-f24423af6b37"/>
     </profileApplication>
     <profileApplication xmi:id="5a89f7d3-1bb0-47e4-bd33-99b78ab8a837profileApplicationModel">
-      <eAnnotations xmi:id="_djJiWywIEfGSoMlN9RKwyw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.StandardProfile.profile.uml#_di7hwiwIEfGSoMlN9RKwyw"/>
+      <eAnnotations xmi:id="_ZlUeAywMEfGSoMlN9RKwyw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.StandardProfile.profile.uml#_ZlSstywMEfGSoMlN9RKwyw"/>
       </eAnnotations>
       <appliedProfile href="UML_Standard_Profile.StandardProfile.profile.uml#5a89f7d3-1bb0-47e4-bd33-99b78ab8a837"/>
     </profileApplication>
     <profileApplication xmi:id="b493721c-a112-47a9-8ee8-085b2ac476cdprofileApplicationModel">
-      <eAnnotations xmi:id="_djKJYSwIEfGSoMlN9RKwyw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="UML_Profile_for_Java.statements.profile.uml#_di7hPiwIEfGSoMlN9RKwyw"/>
+      <eAnnotations xmi:id="_ZlUeBSwMEfGSoMlN9RKwyw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Profile_for_Java.statements.profile.uml#_ZlSpIywMEfGSoMlN9RKwyw"/>
       </eAnnotations>
       <appliedProfile href="UML_Profile_for_Java.statements.profile.uml#b493721c-a112-47a9-8ee8-085b2ac476cd"/>
     </profileApplication>
   </uml:Model>
-  <MagicDrawProfile:mount xmi:id="_djybgCwIEfGSoMlN9RKwyw" base_Dependency="93a27562-4954-4d8c-9cb8-2e8bb93af6a1"/>
-  <MagicDrawProfile:mount xmi:id="_djybgSwIEfGSoMlN9RKwyw" base_Dependency="b57c511e-b5c1-4f57-a3e6-7e2940544c99"/>
-  <JMM:JEAFService xmi:id="_dj2F5iwIEfGSoMlN9RKwyw" base_Interface="df8456de-86f5-4224-8ee1-fcf3b95695c1"/>
-  <JMM:JEAFEnumeration xmi:id="_dj2F5ywIEfGSoMlN9RKwyw" base_Enumeration="275f355b-171b-4efc-8cc8-5f662dbdd305" extensibleEnum="true"/>
-  <JMM:JEAFEnumeration xmi:id="_dj2F6CwIEfGSoMlN9RKwyw" base_Enumeration="7a976040-2fd4-4277-a271-5cf28409179b"/>
-  <JMM:POJO xmi:id="_dj2F6SwIEfGSoMlN9RKwyw" base_Class="7714d4f7-42b9-4b67-8ccb-fa6164c1907d"/>
-  <JMM:POJO xmi:id="_dj2F6iwIEfGSoMlN9RKwyw" base_Class="654ab2c5-7aa7-46d5-acc6-21e0f35d8122"/>
-  <JMM:POJO xmi:id="_dj2F6ywIEfGSoMlN9RKwyw" base_Class="79322946-0cd1-4bb4-9475-cb48863fda51"/>
-  <JMM:POJO xmi:id="_dj2F7CwIEfGSoMlN9RKwyw" base_Class="05fa8d60-7cf1-420d-8850-d03967c50b03"/>
-  <JMM:POJO xmi:id="_dj2F7SwIEfGSoMlN9RKwyw" base_Class="d62788f7-eb7f-4842-92d7-098a6476cdb6"/>
-  <JMM:POJO xmi:id="_dj2F7iwIEfGSoMlN9RKwyw" base_Class="bb6fd757-1377-462a-952a-395dfdbe1107"/>
-  <JMM:POJO xmi:id="_dj2F7ywIEfGSoMlN9RKwyw" base_Class="02703e44-7cf4-4603-a557-85ad9071d4b7"/>
-  <JMM:POJO xmi:id="_dj2F8CwIEfGSoMlN9RKwyw" base_Class="b849eb90-c040-4429-b93b-16f346c950a1"/>
-  <JMM:POJO xmi:id="_dj2F8SwIEfGSoMlN9RKwyw" base_Class="1efaf5ee-cd51-482b-a723-8fb963c0c538"/>
-  <JMM:POJO xmi:id="_dj2F8iwIEfGSoMlN9RKwyw" base_Class="135d85ed-9b27-43be-b8c3-2c70f7bf3168"/>
-  <JMM:POJO xmi:id="_dj2F8ywIEfGSoMlN9RKwyw" base_Class="4f4be925-3cd0-465b-b42f-d4262bb4c749"/>
-  <JMM:POJO xmi:id="_dj2F9CwIEfGSoMlN9RKwyw" base_Class="6cc8e7bb-16e0-4cc2-ba30-dbdce9c58c68"/>
-  <JMM:RESTResource xmi:id="_dj2F9SwIEfGSoMlN9RKwyw" base_Interface="df8456de-86f5-4224-8ee1-fcf3b95695c1" path="/timetable">
+  <MagicDrawProfile:mount xmi:id="_Zl-ljiwMEfGSoMlN9RKwyw" base_Dependency="93a27562-4954-4d8c-9cb8-2e8bb93af6a1"/>
+  <MagicDrawProfile:mount xmi:id="_Zl-ljywMEfGSoMlN9RKwyw" base_Dependency="b57c511e-b5c1-4f57-a3e6-7e2940544c99"/>
+  <JMM:JEAFService xmi:id="_ZmCPvywMEfGSoMlN9RKwyw" base_Interface="df8456de-86f5-4224-8ee1-fcf3b95695c1"/>
+  <JMM:JEAFEnumeration xmi:id="_ZmCPwCwMEfGSoMlN9RKwyw" base_Enumeration="275f355b-171b-4efc-8cc8-5f662dbdd305" extensibleEnum="true"/>
+  <JMM:JEAFEnumeration xmi:id="_ZmCPwSwMEfGSoMlN9RKwyw" base_Enumeration="7a976040-2fd4-4277-a271-5cf28409179b"/>
+  <JMM:POJO xmi:id="_ZmCPwiwMEfGSoMlN9RKwyw" base_Class="7714d4f7-42b9-4b67-8ccb-fa6164c1907d"/>
+  <JMM:POJO xmi:id="_ZmCPwywMEfGSoMlN9RKwyw" base_Class="654ab2c5-7aa7-46d5-acc6-21e0f35d8122"/>
+  <JMM:POJO xmi:id="_ZmCPxCwMEfGSoMlN9RKwyw" base_Class="79322946-0cd1-4bb4-9475-cb48863fda51"/>
+  <JMM:POJO xmi:id="_ZmCPxSwMEfGSoMlN9RKwyw" base_Class="05fa8d60-7cf1-420d-8850-d03967c50b03"/>
+  <JMM:POJO xmi:id="_ZmCPxiwMEfGSoMlN9RKwyw" base_Class="d62788f7-eb7f-4842-92d7-098a6476cdb6"/>
+  <JMM:POJO xmi:id="_ZmCPxywMEfGSoMlN9RKwyw" base_Class="bb6fd757-1377-462a-952a-395dfdbe1107"/>
+  <JMM:POJO xmi:id="_ZmCPyCwMEfGSoMlN9RKwyw" base_Class="02703e44-7cf4-4603-a557-85ad9071d4b7"/>
+  <JMM:POJO xmi:id="_ZmCPySwMEfGSoMlN9RKwyw" base_Class="b849eb90-c040-4429-b93b-16f346c950a1"/>
+  <JMM:POJO xmi:id="_ZmCPyiwMEfGSoMlN9RKwyw" base_Class="1efaf5ee-cd51-482b-a723-8fb963c0c538"/>
+  <JMM:POJO xmi:id="_ZmCPyywMEfGSoMlN9RKwyw" base_Class="135d85ed-9b27-43be-b8c3-2c70f7bf3168"/>
+  <JMM:POJO xmi:id="_ZmCPzCwMEfGSoMlN9RKwyw" base_Class="4f4be925-3cd0-465b-b42f-d4262bb4c749"/>
+  <JMM:POJO xmi:id="_ZmCPzSwMEfGSoMlN9RKwyw" base_Class="6cc8e7bb-16e0-4cc2-ba30-dbdce9c58c68"/>
+  <JMM:RESTResource xmi:id="_ZmCPziwMEfGSoMlN9RKwyw" base_Interface="df8456de-86f5-4224-8ee1-fcf3b95695c1" path="/timetable">
     <produces>APPLICATION_JSON</produces>
     <consumes>APPLICATION_JSON</consumes>
   </JMM:RESTResource>
-  <JMM:RESTOperation xmi:id="_dj2F9iwIEfGSoMlN9RKwyw" path="trips" base_Operation="6fb3bb52-72f9-491c-8f54-eb283a8d9c23">
+  <JMM:RESTOperation xmi:id="_ZmCPzywMEfGSoMlN9RKwyw" path="trips" base_Operation="6fb3bb52-72f9-491c-8f54-eb283a8d9c23">
     <httpMethods>GET</httpMethods>
   </JMM:RESTOperation>
-  <JMM:RESTOperation xmi:id="_dj2F9ywIEfGSoMlN9RKwyw" path="interval" base_Operation="1f33fac5-10a0-48c5-b75a-e10e6e4de58e">
+  <JMM:RESTOperation xmi:id="_ZmCP0CwMEfGSoMlN9RKwyw" path="interval" base_Operation="1f33fac5-10a0-48c5-b75a-e10e6e4de58e">
     <httpMethods>GET</httpMethods>
   </JMM:RESTOperation>
-  <JMM:OpenAPI3Specification xmi:id="_dj3UASwIEfGSoMlN9RKwyw" resourceName="./timetable/jeaf-timetable-service-model.yaml" base_Component="a427260a-447c-43e2-8001-70d893b39c5d"/>
-  <JMM:OpenAPI3Specification xmi:id="_dj3UAiwIEfGSoMlN9RKwyw" resourceName="./timetable/jeaf-timetable-service-model.yaml" base_Component="cf877879-5f17-45a0-815f-9a63eb154706" contactName="JEAF Development Team" contactEmail="jeaf@anaptecs.de"/>
-  <JMM:OpenAPIType xmi:id="_dj3UAywIEfGSoMlN9RKwyw" base_Class="7714d4f7-42b9-4b67-8ccb-fa6164c1907d"/>
-  <JMM:OpenAPIType xmi:id="_dj3UBCwIEfGSoMlN9RKwyw" base_Class="654ab2c5-7aa7-46d5-acc6-21e0f35d8122"/>
-  <JMM:OpenAPIType xmi:id="_dj3UBSwIEfGSoMlN9RKwyw" base_Class="79322946-0cd1-4bb4-9475-cb48863fda51"/>
-  <JMM:OpenAPIType xmi:id="_dj3UBiwIEfGSoMlN9RKwyw" base_Class="05fa8d60-7cf1-420d-8850-d03967c50b03"/>
-  <JMM:OpenAPIType xmi:id="_dj3UBywIEfGSoMlN9RKwyw" base_Class="d62788f7-eb7f-4842-92d7-098a6476cdb6"/>
-  <JMM:OpenAPIType xmi:id="_dj3UCCwIEfGSoMlN9RKwyw" base_Class="02703e44-7cf4-4603-a557-85ad9071d4b7"/>
-  <JMM:OpenAPIEnumeration xmi:id="_dj3UCSwIEfGSoMlN9RKwyw" base_Enumeration="275f355b-171b-4efc-8cc8-5f662dbdd305" extensibleEnum="true"/>
-  <JMM:OpenAPIEnumeration xmi:id="_dj3UCiwIEfGSoMlN9RKwyw" base_Enumeration="7a976040-2fd4-4277-a271-5cf28409179b"/>
-  <JMM:HeaderParam xmi:id="_dj3UCywIEfGSoMlN9RKwyw" value="Time-Shift" base_Property="6295697e-e2bd-4d02-a5be-b842bbc2f587"/>
-  <JMM:HeaderParam xmi:id="_dj3UDCwIEfGSoMlN9RKwyw" value="Date-Shift" base_Property="18497b16-6d8b-484d-8bfe-482339ecd2b7"/>
-  <JMM:HeaderParam xmi:id="_dj3UDSwIEfGSoMlN9RKwyw" value="Accept-Language" base_Property="b45b7597-02e9-46cb-abec-67106214a3c7"/>
-  <JMM:HeaderParam xmi:id="_dj3UDiwIEfGSoMlN9RKwyw" value="traceparent" base_Property="e079ce3e-e5c8-488e-9674-90c3defea87c" technicalHeader="true"/>
-  <JMM:HeaderParam xmi:id="_dj3UDywIEfGSoMlN9RKwyw" value="tracestate" base_Property="33d720c4-4b03-4f27-a024-f163ac5e76ea" technicalHeader="true"/>
-  <JMM:QueryParam xmi:id="_dj3UECwIEfGSoMlN9RKwyw" base_Property="d906bfb7-d305-4f24-b9bc-1ce799685d88"/>
-  <JMM:QueryParam xmi:id="_dj3UESwIEfGSoMlN9RKwyw" base_Property="03b23489-ff3f-4605-8bc8-2e8c0c375a8d"/>
-  <JMM:QueryParam xmi:id="_dj3UEiwIEfGSoMlN9RKwyw" base_Property="08efa8dd-53de-4926-a205-9ce447cd1848"/>
-  <JMM:QueryParam xmi:id="_dj3UEywIEfGSoMlN9RKwyw" base_Property="c8dfdec9-206f-4571-a13a-46de533cd2df"/>
-  <JMM:QueryParam xmi:id="_dj3UFCwIEfGSoMlN9RKwyw" base_Property="144916b7-6e2e-4fe5-80ed-ac52a7cce6ad"/>
-  <JMM:QueryParam xmi:id="_dj3UFSwIEfGSoMlN9RKwyw" base_Property="ab7a8f56-8f03-465f-ae06-27752932c2e9"/>
-  <JMM:BeanParam xmi:id="_dj3UFiwIEfGSoMlN9RKwyw" base_Class="1efaf5ee-cd51-482b-a723-8fb963c0c538"/>
-  <JMM:BeanParam xmi:id="_dj3UFywIEfGSoMlN9RKwyw" base_Class="135d85ed-9b27-43be-b8c3-2c70f7bf3168"/>
-  <JMM:BeanParam xmi:id="_dj3UGCwIEfGSoMlN9RKwyw" base_Class="4f4be925-3cd0-465b-b42f-d4262bb4c749"/>
-  <JMM:BeanParam xmi:id="_dj3UGSwIEfGSoMlN9RKwyw" base_Class="6cc8e7bb-16e0-4cc2-ba30-dbdce9c58c68"/>
-  <JMM:OpenAPISpecReference xmi:id="_dj3UGiwIEfGSoMlN9RKwyw" base_Dependency="66521205-082a-407f-b3fc-21697bd52a3b"/>
-  <JMM:OpenAPIResponse xmi:id="_dj3UGywIEfGSoMlN9RKwyw" base_Class="2423ef81-73ae-48e3-b748-afe8eede918c" unexpectedErrorResponse="true" globalDefaultErrorResponse="true">
+  <JMM:OpenAPI3Specification xmi:id="_ZmDd0SwMEfGSoMlN9RKwyw" resourceName="./timetable/jeaf-timetable-service-model.yaml" base_Component="a427260a-447c-43e2-8001-70d893b39c5d"/>
+  <JMM:OpenAPI3Specification xmi:id="_ZmDd0iwMEfGSoMlN9RKwyw" resourceName="./timetable/jeaf-timetable-service-model.yaml" base_Component="cf877879-5f17-45a0-815f-9a63eb154706" contactName="JEAF Development Team" contactEmail="jeaf@anaptecs.de"/>
+  <JMM:OpenAPIType xmi:id="_ZmDd0ywMEfGSoMlN9RKwyw" base_Class="7714d4f7-42b9-4b67-8ccb-fa6164c1907d"/>
+  <JMM:OpenAPIType xmi:id="_ZmDd1CwMEfGSoMlN9RKwyw" base_Class="654ab2c5-7aa7-46d5-acc6-21e0f35d8122"/>
+  <JMM:OpenAPIType xmi:id="_ZmDd1SwMEfGSoMlN9RKwyw" base_Class="79322946-0cd1-4bb4-9475-cb48863fda51"/>
+  <JMM:OpenAPIType xmi:id="_ZmDd1iwMEfGSoMlN9RKwyw" base_Class="05fa8d60-7cf1-420d-8850-d03967c50b03"/>
+  <JMM:OpenAPIType xmi:id="_ZmDd1ywMEfGSoMlN9RKwyw" base_Class="d62788f7-eb7f-4842-92d7-098a6476cdb6"/>
+  <JMM:OpenAPIType xmi:id="_ZmDd2CwMEfGSoMlN9RKwyw" base_Class="02703e44-7cf4-4603-a557-85ad9071d4b7"/>
+  <JMM:OpenAPIEnumeration xmi:id="_ZmDd2SwMEfGSoMlN9RKwyw" base_Enumeration="275f355b-171b-4efc-8cc8-5f662dbdd305" extensibleEnum="true"/>
+  <JMM:OpenAPIEnumeration xmi:id="_ZmDd2iwMEfGSoMlN9RKwyw" base_Enumeration="7a976040-2fd4-4277-a271-5cf28409179b"/>
+  <JMM:HeaderParam xmi:id="_ZmDd2ywMEfGSoMlN9RKwyw" value="Time-Shift" base_Property="6295697e-e2bd-4d02-a5be-b842bbc2f587"/>
+  <JMM:HeaderParam xmi:id="_ZmDd3CwMEfGSoMlN9RKwyw" value="Date-Shift" base_Property="18497b16-6d8b-484d-8bfe-482339ecd2b7"/>
+  <JMM:HeaderParam xmi:id="_ZmDd3SwMEfGSoMlN9RKwyw" value="Accept-Language" base_Property="b45b7597-02e9-46cb-abec-67106214a3c7"/>
+  <JMM:HeaderParam xmi:id="_ZmDd3iwMEfGSoMlN9RKwyw" value="traceparent" base_Property="e079ce3e-e5c8-488e-9674-90c3defea87c" technicalHeader="true"/>
+  <JMM:HeaderParam xmi:id="_ZmDd3ywMEfGSoMlN9RKwyw" value="tracestate" base_Property="33d720c4-4b03-4f27-a024-f163ac5e76ea" technicalHeader="true"/>
+  <JMM:QueryParam xmi:id="_ZmDd4CwMEfGSoMlN9RKwyw" base_Property="d906bfb7-d305-4f24-b9bc-1ce799685d88"/>
+  <JMM:QueryParam xmi:id="_ZmDd4SwMEfGSoMlN9RKwyw" base_Property="03b23489-ff3f-4605-8bc8-2e8c0c375a8d"/>
+  <JMM:QueryParam xmi:id="_ZmDd4iwMEfGSoMlN9RKwyw" base_Property="08efa8dd-53de-4926-a205-9ce447cd1848"/>
+  <JMM:QueryParam xmi:id="_ZmDd4ywMEfGSoMlN9RKwyw" base_Property="c8dfdec9-206f-4571-a13a-46de533cd2df"/>
+  <JMM:QueryParam xmi:id="_ZmDd5CwMEfGSoMlN9RKwyw" base_Property="144916b7-6e2e-4fe5-80ed-ac52a7cce6ad"/>
+  <JMM:QueryParam xmi:id="_ZmDd5SwMEfGSoMlN9RKwyw" base_Property="ab7a8f56-8f03-465f-ae06-27752932c2e9"/>
+  <JMM:BeanParam xmi:id="_ZmDd5iwMEfGSoMlN9RKwyw" base_Class="1efaf5ee-cd51-482b-a723-8fb963c0c538"/>
+  <JMM:BeanParam xmi:id="_ZmDd5ywMEfGSoMlN9RKwyw" base_Class="135d85ed-9b27-43be-b8c3-2c70f7bf3168"/>
+  <JMM:BeanParam xmi:id="_ZmDd6CwMEfGSoMlN9RKwyw" base_Class="4f4be925-3cd0-465b-b42f-d4262bb4c749"/>
+  <JMM:BeanParam xmi:id="_ZmDd6SwMEfGSoMlN9RKwyw" base_Class="6cc8e7bb-16e0-4cc2-ba30-dbdce9c58c68"/>
+  <JMM:OpenAPISpecReference xmi:id="_ZmDd6iwMEfGSoMlN9RKwyw" base_Dependency="66521205-082a-407f-b3fc-21697bd52a3b"/>
+  <JMM:OpenAPIResponse xmi:id="_ZmDd6ywMEfGSoMlN9RKwyw" base_Class="2423ef81-73ae-48e3-b748-afe8eede918c" unexpectedErrorResponse="true" globalDefaultErrorResponse="true">
     <statusCodes>400_BAD_REQUEST</statusCodes>
     <statusCodes>401_UNAUTHORIZED</statusCodes>
     <statusCodes>403_FORBIDDEN</statusCodes>
     <statusCodes>500_INTERNAL_SERVER_ERROR</statusCodes>
   </JMM:OpenAPIResponse>
-  <JMM:OpenAPIDataType xmi:id="_dj3UHCwIEfGSoMlN9RKwyw" base_Class="bb6fd757-1377-462a-952a-395dfdbe1107"/>
-  <JMM:OpenAPIDataType xmi:id="_dj3UHSwIEfGSoMlN9RKwyw" base_Class="b849eb90-c040-4429-b93b-16f346c950a1"/>
-  <JMM:ModuleFactory xmi:id="_dj3UHiwIEfGSoMlN9RKwyw" base_Component="a5ef3e0d-a13a-4c16-bb61-38ca348e8e73"/>
-  <JMM:ModuleFactory xmi:id="_dj3UHywIEfGSoMlN9RKwyw" base_Component="4caee8ac-2a09-411c-9454-0261e63d5116"/>
-  <JMM:Domain xmi:id="_dj37JywIEfGSoMlN9RKwyw" base_Package="91b43632-b923-4e77-9597-5a8373af8530"/>
-  <JMM:Domain xmi:id="_dj37KCwIEfGSoMlN9RKwyw" base_Package="e9d1e19f-e532-4dd9-ac96-b22ba9f9270c" domainName="Timetable" issueTrackingURL="https://github.com/anaptecs/jeaf-generator/issues" issueDisplayNamePrefix="#" domainType="BUSINESS_DOMAIN"/>
-  <JMM:MavenDependency xmi:id="_dj37KSwIEfGSoMlN9RKwyw" base_Dependency="b6f05de4-d541-4dfc-8fe1-cb00648ee1ae" packaging="ZIP" scope="PROVIDED">
+  <JMM:OpenAPIDataType xmi:id="_ZmDd7CwMEfGSoMlN9RKwyw" base_Class="bb6fd757-1377-462a-952a-395dfdbe1107"/>
+  <JMM:OpenAPIDataType xmi:id="_ZmDd7SwMEfGSoMlN9RKwyw" base_Class="b849eb90-c040-4429-b93b-16f346c950a1"/>
+  <JMM:ModuleFactory xmi:id="_ZmDd7iwMEfGSoMlN9RKwyw" base_Component="a5ef3e0d-a13a-4c16-bb61-38ca348e8e73"/>
+  <JMM:ModuleFactory xmi:id="_ZmDd7ywMEfGSoMlN9RKwyw" base_Component="4caee8ac-2a09-411c-9454-0261e63d5116"/>
+  <JMM:Domain xmi:id="_ZmEE6CwMEfGSoMlN9RKwyw" base_Package="91b43632-b923-4e77-9597-5a8373af8530"/>
+  <JMM:Domain xmi:id="_ZmEE6SwMEfGSoMlN9RKwyw" base_Package="e9d1e19f-e532-4dd9-ac96-b22ba9f9270c" domainName="Timetable" issueTrackingURL="https://github.com/anaptecs/jeaf-generator/issues" issueDisplayNamePrefix="#" domainType="BUSINESS_DOMAIN"/>
+  <JMM:MavenDependency xmi:id="_ZmEE6iwMEfGSoMlN9RKwyw" base_Dependency="b6f05de4-d541-4dfc-8fe1-cb00648ee1ae" packaging="ZIP" scope="PROVIDED">
     <sourceModuleTypes>POM</sourceModuleTypes>
   </JMM:MavenDependency>
-  <JMM:MavenDependency xmi:id="_dj37KiwIEfGSoMlN9RKwyw" base_Dependency="d06e057c-9b54-41ec-af9d-f364cf991706" packaging="ZIP" scope="PROVIDED">
+  <JMM:MavenDependency xmi:id="_ZmEE6ywMEfGSoMlN9RKwyw" base_Dependency="d06e057c-9b54-41ec-af9d-f364cf991706" packaging="ZIP" scope="PROVIDED">
     <sourceModuleTypes>POM</sourceModuleTypes>
   </JMM:MavenDependency>
-  <JMM:MavenDependency xmi:id="_dj37KywIEfGSoMlN9RKwyw" base_Dependency="0afc4d44-d7c2-436f-9eac-dad9e781d67c" packaging="ZIP" scope="PROVIDED">
+  <JMM:MavenDependency xmi:id="_ZmEE7CwMEfGSoMlN9RKwyw" base_Dependency="0afc4d44-d7c2-436f-9eac-dad9e781d67c" packaging="ZIP" scope="PROVIDED">
     <sourceModuleTypes>POM</sourceModuleTypes>
   </JMM:MavenDependency>
-  <JMM:MavenProject xmi:id="_dj37LCwIEfGSoMlN9RKwyw" archetype="DOMAIN" base_Artifact="b8986491-a37d-4724-91d8-9a5504ef14dc"/>
-  <JMM:MavenProject xmi:id="_dj37LSwIEfGSoMlN9RKwyw" archetype="DATA_TYPES" groupId="com.anaptecs.jeaf.timetable" artifactId="jeaf-timetable-data-types" base_Artifact="2688edbc-f1ac-47e8-8ade-7a2f414ada22" customizable="true"/>
-  <JMM:MavenProject xmi:id="_dj37LiwIEfGSoMlN9RKwyw" groupId="com.anaptecs.jeaf.timetable" artifactId="jeaf-timetable-uml-model-uml" base_Artifact="d2b429e9-9807-42b8-bd10-5770c8be5d36"/>
-  <JMM:MavenProject xmi:id="_dj37LywIEfGSoMlN9RKwyw" archetype="SERVICE_MODEL" groupId="com.anaptecs.jeaf.timetable" artifactId="jeaf-timetable-service-model" base_Artifact="9eb96466-d706-4cc5-95f9-effcba9d75f5" scmPath="https://github.com/anaptecs/jeaf-timetable-service-model"/>
-  <JMM:MavenProjectDependency xmi:id="_dj37MCwIEfGSoMlN9RKwyw" base_Dependency="64a02cfc-e105-4d8d-8342-4e33192f7751">
+  <JMM:MavenProject xmi:id="_ZmEE7SwMEfGSoMlN9RKwyw" archetype="DOMAIN" base_Artifact="b8986491-a37d-4724-91d8-9a5504ef14dc"/>
+  <JMM:MavenProject xmi:id="_ZmEE7iwMEfGSoMlN9RKwyw" archetype="DATA_TYPES" groupId="com.anaptecs.jeaf.timetable" artifactId="jeaf-timetable-data-types" base_Artifact="2688edbc-f1ac-47e8-8ade-7a2f414ada22" customizable="true"/>
+  <JMM:MavenProject xmi:id="_ZmEE7ywMEfGSoMlN9RKwyw" groupId="com.anaptecs.jeaf.timetable" artifactId="jeaf-timetable-uml-model-uml" base_Artifact="d2b429e9-9807-42b8-bd10-5770c8be5d36"/>
+  <JMM:MavenProject xmi:id="_ZmEE8CwMEfGSoMlN9RKwyw" archetype="SERVICE_MODEL" groupId="com.anaptecs.jeaf.timetable" artifactId="jeaf-timetable-service-model" base_Artifact="9eb96466-d706-4cc5-95f9-effcba9d75f5" scmPath="https://github.com/anaptecs/jeaf-timetable-service-model"/>
+  <JMM:MavenProjectDependency xmi:id="_ZmEE8SwMEfGSoMlN9RKwyw" base_Dependency="64a02cfc-e105-4d8d-8342-4e33192f7751">
     <moduleDependencyTypes>OPEN_API_2_OPEN_API</moduleDependencyTypes>
     <moduleDependencyTypes>JAVA_2_JAVA</moduleDependencyTypes>
   </JMM:MavenProjectDependency>
-  <JMM:ReleaseUnit xmi:id="_dj37MSwIEfGSoMlN9RKwyw" base_Package="fc0651f0-8f20-4a97-8c8e-d6797d6afccd"/>
-  <JMM:ReleaseUnit xmi:id="_dj37MiwIEfGSoMlN9RKwyw" base_Package="3356ed0c-b9fb-451c-9cbe-e45772de83fb"/>
-  <JMM:ReleaseUnit xmi:id="_dj37MywIEfGSoMlN9RKwyw" base_Package="c3567d47-0c26-4587-9562-c5e309300727"/>
-  <JMM:ReleaseUnit xmi:id="_dj37NCwIEfGSoMlN9RKwyw" base_Package="9f71c28e-78ec-451f-8123-51feb1450a25"/>
-  <JMM:ReleaseUnit xmi:id="_dj37NSwIEfGSoMlN9RKwyw" base_Package="cab6c5fd-bf2a-47ea-bd4a-0552316d43c5"/>
-  <JMM:ChangeDescription xmi:id="_dj37NiwIEfGSoMlN9RKwyw" issueID="577" issueCategory="FEATURE" base_Comment="b268b356-5c83-460b-a2cb-09ec8dde66d5" details="Now it is also possible to use SoftLinks for derived properties inside the UML model.">
+  <JMM:ReleaseUnit xmi:id="_ZmEE8iwMEfGSoMlN9RKwyw" base_Package="fc0651f0-8f20-4a97-8c8e-d6797d6afccd"/>
+  <JMM:ReleaseUnit xmi:id="_ZmEE8ywMEfGSoMlN9RKwyw" base_Package="3356ed0c-b9fb-451c-9cbe-e45772de83fb"/>
+  <JMM:ReleaseUnit xmi:id="_ZmEE9CwMEfGSoMlN9RKwyw" base_Package="c3567d47-0c26-4587-9562-c5e309300727"/>
+  <JMM:ReleaseUnit xmi:id="_ZmEE9SwMEfGSoMlN9RKwyw" base_Package="9f71c28e-78ec-451f-8123-51feb1450a25"/>
+  <JMM:ReleaseUnit xmi:id="_ZmEE9iwMEfGSoMlN9RKwyw" base_Package="cab6c5fd-bf2a-47ea-bd4a-0552316d43c5"/>
+  <JMM:ChangeDescription xmi:id="_ZmEE9ywMEfGSoMlN9RKwyw" issueID="577" issueCategory="FEATURE" base_Comment="b268b356-5c83-460b-a2cb-09ec8dde66d5" details="Now it is also possible to use SoftLinks for derived properties inside the UML model.">
     <compatibilityInfos>STRICT_FORWARD_COMPATIBLE</compatibilityInfos>
     <compatibilityInfos>BACKWARD_COMPATIBLE</compatibilityInfos>
   </JMM:ChangeDescription>
-  <JMM:ChangeDescription xmi:id="_dj37NywIEfGSoMlN9RKwyw" issueID="4711" issueCategory="BUGFIX" base_Comment="4bb48441-fa98-4560-b8fe-9d7a65a2a2b2" changeType="ELEMENT_ADDED">
+  <JMM:ChangeDescription xmi:id="_ZmEE-CwMEfGSoMlN9RKwyw" issueID="4711" issueCategory="BUGFIX" base_Comment="4bb48441-fa98-4560-b8fe-9d7a65a2a2b2" changeType="ELEMENT_ADDED">
     <compatibilityInfos>BACKWARD_COMPATIBLE</compatibilityInfos>
     <compatibilityInfos>API_FORWARD_COMPATIBLE</compatibilityInfos>
   </JMM:ChangeDescription>
-  <JMM:ChangeDescription xmi:id="_dj37OCwIEfGSoMlN9RKwyw" issueID="676" issueCategory="IMPROVEMENT" base_Comment="23ad9ae3-163b-4f40-855b-e831449c8f93" details="New behavior can be activated be setting configuration parameter `generateJsonSetterAnnotationOnBuilderOperations` to `true` in your Maven Plugin Configuration for JEAF Generator." changeType="ELEMENT_ADDED">
+  <JMM:ChangeDescription xmi:id="_ZmEE-SwMEfGSoMlN9RKwyw" issueID="676" issueCategory="IMPROVEMENT" base_Comment="23ad9ae3-163b-4f40-855b-e831449c8f93" details="New behavior can be activated be setting configuration parameter `generateJsonSetterAnnotationOnBuilderOperations` to `true` in your Maven Plugin Configuration for JEAF Generator." changeType="ELEMENT_ADDED">
     <compatibilityInfos>STRICT_FORWARD_COMPATIBLE</compatibilityInfos>
     <compatibilityInfos>BACKWARD_COMPATIBLE</compatibilityInfos>
   </JMM:ChangeDescription>
-  <JMM:Release xmi:id="_dj37OSwIEfGSoMlN9RKwyw" base_Package="70dad701-60ce-4d96-95f9-f2dc28b6c1d3"/>
-  <JMM:Release xmi:id="_dj37OiwIEfGSoMlN9RKwyw" base_Package="c6c18984-f435-454c-87b3-b53859c6afca"/>
-  <JMM:Release xmi:id="_dj37OywIEfGSoMlN9RKwyw" base_Package="78b26ff6-25f8-490d-b6f1-f5d24fb27ec1"/>
-  <JMM:ReleaseNotesEntry xmi:id="_dj37PCwIEfGSoMlN9RKwyw" releaseNotesEntryType="MIGRATION_NOTICE" base_Comment="801b0831-232a-48f2-a67a-e3b11c51b4d6" details="* No special actions for migration needed"/>
-  <JMM:ReleaseNotesEntry xmi:id="_dj37PSwIEfGSoMlN9RKwyw" releaseNotesEntryType="MIGRATION_NOTICE" base_Comment="8f23c499-c0b1-4706-9b14-c476dacab856" details="* **Upgrade of JEAF Generator Meta Model (JMM)**&#xA;  Due to implementation of [#337](https://github.com/anaptecs/jeaf-generator/issues/337) and [#624](https://github.com/anaptecs/jeaf-generator/issues/624) changes in JMM were necessary. Before switching to version `1.28.*` please upgrade your UML models to JMM Version `2.8.0` (revision `#271` or `#71` in MagicDraw Teamwork Cloud)&#xA;&#xA;&lt;br>&#xA;&#xA;* **Required changes in UML model**&#xA;Due to [#492](https://github.com/anaptecs/jeaf-generator/issues/492) there are cases where you have to do changes in the UML model before upgrading. In order to fix [#492](https://github.com/anaptecs/jeaf-generator/issues/492) JEAF Generator no longer generates a custom implementation class in case of abstract classes with derived properties. If you still need this class then you have to set tagged value `hasCustomImplementation` to `true`in the UML model. If not you need to delete the currently generated custom class from your `src` directory as it will cause compile errors otherwise after the migration.&#xA;&#xA;&lt;br>&#xA;&#xA;* **JEAF Generator Extension API v2**&#xA;JEAF Generator now also supports a new version `2` of its extension API. If you want to make use of it then you need to explicitly enable that by implementing [`JEAFGeneratorExtensionAPI.ext`](https://github.com/anaptecs/jeaf-generator/blob/main/jeaf-generator/src/main/resources/jeafgenerator/api/JEAFGeneratorExtensionAPI.ext) and return `2` as supported version."/>
-  <JMM:ReleaseNotesEntry xmi:id="_dj37PiwIEfGSoMlN9RKwyw" releaseNotesEntryType="GENERAL_INFORMATION" base_Comment="80213ac3-8f48-4713-8076-b8642651e223" details="This version contains experimental support for Jackson 3 which by default is required for Spring Boot 4. Even though not all Spring Boot 4 specific tests are already completed, with this version we want to give early adopters the change to test Jackson 3 / Spring Boot 4 migration on their side.&#xA;&#xA;JEAF Generator is capable to generate Jackson 2 and 3 code within the same module. In order to make the behavior configurable we introduced several new configuration parameters: `jacksonVersions`, `jackson2Suffix`,  `jackson2Subpackage`, `jackson3Suffix` and `jackson3Subpackage`&lt;br>&lt;br>For further details please look here: https://www.jeaf-generator.io/developer-guide/maven-plugin-configuration/#common-configuration-parameters&lt;br>&lt;br>For better backward compatibility with existing implementations and tests we strongly recommend to apply the following configuration changes for Jackson 3&#xA;&#xA;```java&#xA;// For better JSON backward compatibility with Jackson 2 we preserve the property order as it ws in Jackson 2&#xA;JsonMapper.builder().disable(MapperFeature.SORT_PROPERTIES_ALPHABETICALLY);&#xA;&#xA;// If not working with generic builder pattern then in addition this setting is needed.&#xA;JsonMapper.builder().enable(MapperFeature.ALLOW_FINAL_FIELDS_AS_MUTATORS);&#xA;```"/>
-  <JMM:ReleaseDependency xmi:id="_dj37PywIEfGSoMlN9RKwyw" base_Dependency="a94c9aaa-666e-4cdd-9349-c4be0c8dc8ac"/>
-  <JMM:ReleaseDependency xmi:id="_dj37QCwIEfGSoMlN9RKwyw" base_Dependency="2879c567-27f0-4ff4-886f-7bf03ad07ce0"/>
+  <JMM:Release xmi:id="_ZmEE-iwMEfGSoMlN9RKwyw" base_Package="70dad701-60ce-4d96-95f9-f2dc28b6c1d3"/>
+  <JMM:Release xmi:id="_ZmEE-ywMEfGSoMlN9RKwyw" base_Package="c6c18984-f435-454c-87b3-b53859c6afca"/>
+  <JMM:Release xmi:id="_ZmEE_CwMEfGSoMlN9RKwyw" base_Package="78b26ff6-25f8-490d-b6f1-f5d24fb27ec1"/>
+  <JMM:ReleaseNotesEntry xmi:id="_ZmEE_SwMEfGSoMlN9RKwyw" releaseNotesEntryType="MIGRATION_NOTICE" base_Comment="801b0831-232a-48f2-a67a-e3b11c51b4d6" details="* No special actions for migration needed"/>
+  <JMM:ReleaseNotesEntry xmi:id="_ZmEE_iwMEfGSoMlN9RKwyw" releaseNotesEntryType="MIGRATION_NOTICE" base_Comment="8f23c499-c0b1-4706-9b14-c476dacab856" details="* **Upgrade of JEAF Generator Meta Model (JMM)**&#xA;  Due to implementation of [#337](https://github.com/anaptecs/jeaf-generator/issues/337) and [#624](https://github.com/anaptecs/jeaf-generator/issues/624) changes in JMM were necessary. Before switching to version `1.28.*` please upgrade your UML models to JMM Version `2.8.0` (revision `#271` or `#71` in MagicDraw Teamwork Cloud)&#xA;&#xA;&lt;br>&#xA;&#xA;* **Required changes in UML model**&#xA;Due to [#492](https://github.com/anaptecs/jeaf-generator/issues/492) there are cases where you have to do changes in the UML model before upgrading. In order to fix [#492](https://github.com/anaptecs/jeaf-generator/issues/492) JEAF Generator no longer generates a custom implementation class in case of abstract classes with derived properties. If you still need this class then you have to set tagged value `hasCustomImplementation` to `true`in the UML model. If not you need to delete the currently generated custom class from your `src` directory as it will cause compile errors otherwise after the migration.&#xA;&#xA;&lt;br>&#xA;&#xA;* **JEAF Generator Extension API v2**&#xA;JEAF Generator now also supports a new version `2` of its extension API. If you want to make use of it then you need to explicitly enable that by implementing [`JEAFGeneratorExtensionAPI.ext`](https://github.com/anaptecs/jeaf-generator/blob/main/jeaf-generator/src/main/resources/jeafgenerator/api/JEAFGeneratorExtensionAPI.ext) and return `2` as supported version."/>
+  <JMM:ReleaseNotesEntry xmi:id="_ZmEE_ywMEfGSoMlN9RKwyw" releaseNotesEntryType="GENERAL_INFORMATION" base_Comment="80213ac3-8f48-4713-8076-b8642651e223" details="This version contains experimental support for Jackson 3 which by default is required for Spring Boot 4. Even though not all Spring Boot 4 specific tests are already completed, with this version we want to give early adopters the change to test Jackson 3 / Spring Boot 4 migration on their side.&#xA;&#xA;JEAF Generator is capable to generate Jackson 2 and 3 code within the same module. In order to make the behavior configurable we introduced several new configuration parameters: `jacksonVersions`, `jackson2Suffix`,  `jackson2Subpackage`, `jackson3Suffix` and `jackson3Subpackage`&lt;br>&lt;br>For further details please look here: https://www.jeaf-generator.io/developer-guide/maven-plugin-configuration/#common-configuration-parameters&lt;br>&lt;br>For better backward compatibility with existing implementations and tests we strongly recommend to apply the following configuration changes for Jackson 3&#xA;&#xA;```java&#xA;// For better JSON backward compatibility with Jackson 2 we preserve the property order as it ws in Jackson 2&#xA;JsonMapper.builder().disable(MapperFeature.SORT_PROPERTIES_ALPHABETICALLY);&#xA;&#xA;// If not working with generic builder pattern then in addition this setting is needed.&#xA;JsonMapper.builder().enable(MapperFeature.ALLOW_FINAL_FIELDS_AS_MUTATORS);&#xA;```"/>
+  <JMM:ReleaseDependency xmi:id="_ZmEFACwMEfGSoMlN9RKwyw" base_Dependency="a94c9aaa-666e-4cdd-9349-c4be0c8dc8ac"/>
+  <JMM:ReleaseDependency xmi:id="_ZmEFASwMEfGSoMlN9RKwyw" base_Dependency="2879c567-27f0-4ff4-886f-7bf03ad07ce0"/>
 </xmi:XMI>
